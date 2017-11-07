@@ -7,6 +7,8 @@ import { MDBBootstrapModule} from 'angular-bootstrap-md';
 
 import { AppComponent } from './app.component';
 import { RegistroComponent } from './registro/registro.component';
+// NGX MODULES
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,7 @@ import { RegistroComponent } from './registro/registro.component';
   imports: [
     BrowserModule,
     FormsModule,
-    MDBBootstrapModule.forRoot()
+    CarouselModule.forRoot()
   ],
   schemas: [NO_ERRORS_SCHEMA],
   providers: [],
